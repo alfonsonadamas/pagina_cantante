@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.imagen{
+    background-image: url("img/kk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1348px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.imagen2{
+    background-image: url("img/gera-mx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1348px;
+    height: 500px;
+    background-color: aqua;
+}
+.imagen3{
+    background-image: url("img/Duki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1348px;
+    height: 500px;
+    background-color: aqua;
+}
+.degradado{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1348px;
+    height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.14049369747899154) 100%);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    color: white;
+    font-weight: 100;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.lanzamiento{
+    display: flex;
+    flex-direction: column;
+
+}

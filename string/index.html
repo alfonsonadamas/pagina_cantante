@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>JavaScript String Methods</h1>
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+    
+    <button onclick="myFunction()">Try it</button>
+    
+    <p id="demo">Please visit Microsoft!</p>
+    
+    
+
+<h1>JavaScript String Methods</h1>
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="myFunction1()">Try it</button>
+
+<p id="demo1">Please visit Microsoft and Microsoft Microsoft Microsoftp>
+
+    <h1>JavaScript String Methods</h1>
+<p>Replace all occurrences of "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="myFunction2()">Try it</button>
+
+<p id="demo2">Please visit Microsoft and Microsoft! Microsoft Microsoft Microsoft Microsoft Microsoft</p>
+
+
+<script>
+    function myFunction() {
+      let text = document.getElementById("demo").innerHTML;
+      document.getElementById("demo").innerHTML =
+      text.replace("Microsoft","W3Schools");
+    }
+    function myFunction1() {
+  let text = document.getElementById("demo").innerHTML; 
+  document.getElementById("demo1").innerHTML =
+  text.replace(/MICROSOFT/i,"W3Schools");
+}
+
+function myFunction2() {
+  let text = document.getElementById("demo").innerHTML; 
+  document.getElementById("demo2").innerHTML =
+  text.replace(/MICROSOFT/g,"W3Schools");
+}
+
+    </script>
+
+</body>
+</html>
